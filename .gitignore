@@ -1,0 +1,18 @@
+# Model weights - too large for GitHub
+model/
+flan-t5-small-local/
+flan-t5-base-local/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs
+*.log
+nohup.out
+
+# OS
+.DS_Store
+Thumbs.db

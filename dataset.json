@@ -1,0 +1,602 @@
+[
+  {
+    "input": "I can't sit still for more than 5 minutes without checking my phone. I've tried studying but I just end up scrolling TikTok for an hour.",
+    "output": "Brain Status: Cooked 🔥\nScore: 85\nIssues: poor attention control, excessive phone dependency, task avoidance\nAdvice:\n- Start with 5-minute focus sprints, not hour-long sessions\n- Put your phone in another room while studying\n- Use the Pomodoro technique: 25 min work, 5 min break\nMini Challenge: Right now, close all tabs except one and study for exactly 10 minutes.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I usually study for about 30 minutes then take short breaks. Sometimes I get distracted but I generally finish what I plan.",
+    "output": "Brain Status: Distracted 😵\nScore: 45\nIssues: inconsistent focus, occasional distraction, incomplete sessions\nAdvice:\n- Set a clear timer before each study block\n- Define what done looks like before you start\n- Reduce background noise during sessions\nMini Challenge: Write down your top 3 tasks for today before opening any apps.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I block all notifications and study for 90-minute Pomodoro sessions. I always summarize what I learned after each session.",
+    "output": "Brain Status: Focused 🧘\nScore: 12\nIssues: none significant\nAdvice:\n- Keep up your current system\n- Try spaced repetition to retain more\n- Consider teaching what you learn to solidify memory\nMini Challenge: Teach one concept you studied today to a friend or write it as a tweet.",
+    "label": "Focused"
+  },
+  {
+    "input": "i literally open my notes app and then somehow end up on instagram 10 mins later. happens every single time lol",
+    "output": "Brain Status: Cooked 🔥\nScore: 78\nIssues: automatic distraction behavior, lack of intent, habitual phone switching\nAdvice:\n- Use app blockers like Cold Turkey during study time\n- Keep your phone face-down in a drawer\n- Start sessions by writing your goal on paper first\nMini Challenge: Study for 15 minutes with your phone in a different room. Just 15.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I do deep work sessions of 2 hours in the morning. I use noise-canceling headphones and have a dedicated study desk away from my bed.",
+    "output": "Brain Status: Focused 🧘\nScore: 8\nIssues: none significant\nAdvice:\n- Protect your environment and keep this habit strong\n- Add a weekly review to spot patterns in productivity\n- Try journaling after sessions to track mental energy\nMini Challenge: Plan tomorrow's study session tonight before you sleep.",
+    "label": "Focused"
+  },
+  {
+    "input": "My attention span is cooked. I watched 4 hours of YouTube shorts yesterday instead of studying for my exam.",
+    "output": "Brain Status: Cooked 🔥\nScore: 91\nIssues: severe task avoidance, short-form content addiction, exam pressure ignored\nAdvice:\n- Delete or hide YouTube from your home screen temporarily\n- Study in a library where phone use feels awkward\n- Break your exam material into 10-minute micro-chunks\nMini Challenge: Open your notes right now. Read just one page. That is all.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I study with music on, sometimes get distracted by song lyrics. I finish most tasks but not always on time.",
+    "output": "Brain Status: Distracted 😵\nScore: 38\nIssues: mild audio distraction, time management gaps\nAdvice:\n- Switch to instrumental music or brown noise\n- Set hard deadlines with a visible timer\n- Use a task checklist to stay on track\nMini Challenge: Try one 25-minute session today with lo-fi music instead of songs.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I read for like 2 mins then reread the same paragraph because my brain just drifts. idk how people focus for hours",
+    "output": "Brain Status: Cooked 🔥\nScore: 73\nIssues: reading comprehension drift, attention fragmentation, poor working memory\nAdvice:\n- Try active reading: underline and take notes as you go\n- Read out loud to engage more cognitive channels\n- Take a 5-minute walk before studying to prime your brain\nMini Challenge: Read one paragraph right now. Write one sentence summarizing it.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I track my study sessions in Notion, usually hit 4-5 hours of focused work per day. I review flashcards before bed.",
+    "output": "Brain Status: Focused 🧘\nScore: 15\nIssues: none significant\nAdvice:\n- Keep your tracking habit, consistency is your superpower\n- Vary your study methods to prevent boredom\n- Make sure you are sleeping 7-8 hours to consolidate memory\nMini Challenge: Add a 'what was hardest today' field to your Notion tracker.",
+    "label": "Focused"
+  },
+  {
+    "input": "Sometimes I study for an hour straight. Other days I can barely open my laptop. Really depends on my mood.",
+    "output": "Brain Status: Distracted 😵\nScore: 52\nIssues: inconsistent motivation, mood-dependent performance, unreliable schedule\nAdvice:\n- Build a pre-study ritual to signal your brain it is time to focus\n- Reduce decision fatigue by planning sessions the night before\n- Track your energy levels to find your peak hours\nMini Challenge: Pick one fixed study time for tomorrow and write it down right now.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I check my phone every 2 minutes. I literally cannot stop. I've tried everything.",
+    "output": "Brain Status: Cooked 🔥\nScore: 88\nIssues: compulsive phone checking, severe attention fragmentation, habit loop addiction\nAdvice:\n- Use grayscale mode on your phone to reduce dopamine triggers\n- Try the phone in a box method during study blocks\n- Start with just 5-minute phone-free sprints and build up\nMini Challenge: Put your phone face down across the room for the next 10 minutes.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I can usually sit and study for 45-60 minutes. I get distracted sometimes but can refocus after a short break.",
+    "output": "Brain Status: Distracted 😵\nScore: 35\nIssues: occasional distraction, moderate recovery time\nAdvice:\n- Log what distracted you to find patterns\n- Try the parking lot method: note distracting thoughts to revisit later\n- Keep water and snacks ready so you do not need to get up\nMini Challenge: During your next session, write down every time you get distracted without judging yourself.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I wake up and immediately scroll for 30 minutes. Then I feel too foggy to study properly for the rest of the morning.",
+    "output": "Brain Status: Cooked 🔥\nScore: 76\nIssues: morning phone dependency, cognitive fog from early stimulation, poor morning routine\nAdvice:\n- Keep your phone outside your bedroom or use a regular alarm clock\n- Replace morning scroll with 5 minutes of stretching or water\n- Study within 30 minutes of waking while your brain is fresh\nMini Challenge: Tomorrow morning, do not touch your phone for the first 20 minutes after waking up.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I schedule my study sessions in Google Calendar and follow them 80% of the time. I do get pulled into Reddit sometimes.",
+    "output": "Brain Status: Distracted 😵\nScore: 42\nIssues: occasional Reddit time sink, 20% schedule deviation\nAdvice:\n- Use a Reddit timer extension to cap your browsing\n- Build a reward browse after completing a session, not during\n- Review your calendar weekly to improve your hit rate\nMini Challenge: Block Reddit on your browser for just the next 2 hours.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I meditate every morning for 10 minutes before studying. My focus has improved a lot over the past year.",
+    "output": "Brain Status: Focused 🧘\nScore: 10\nIssues: none significant\nAdvice:\n- Meditation is your foundation, protect that habit\n- Try body scan meditation on high-stress study days\n- Consider journaling post-meditation to set study intentions\nMini Challenge: Write your study intention for today in one sentence after your next meditation.",
+    "label": "Focused"
+  },
+  {
+    "input": "I open 15 tabs and then don't read any of them. I've been 'about to study' for 3 hours.",
+    "output": "Brain Status: Cooked 🔥\nScore: 83\nIssues: procrastination loops, initiation failure, decision paralysis\nAdvice:\n- Close all tabs, open exactly one, and start there\n- Use the 2-minute rule: if it takes less than 2 minutes do it now\n- Set a visible countdown timer to create urgency\nMini Challenge: Close every tab right now. Open one. Read for 5 minutes.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I study best late at night. I usually get 2-3 solid hours in after midnight when it is quiet.",
+    "output": "Brain Status: Focused 🧘\nScore: 22\nIssues: late sleep timing may affect memory consolidation\nAdvice:\n- Night owl schedules work, just protect your sleep hours\n- Avoid blue light 30 minutes before bed to improve sleep quality\n- Make sure you are getting 7+ hours even with late nights\nMini Challenge: Set a sleep alarm tonight so you know when to stop studying.",
+    "label": "Focused"
+  },
+  {
+    "input": "My study sessions keep getting interrupted by notifs. I turn them off but then check anyway out of habit.",
+    "output": "Brain Status: Distracted 😵\nScore: 55\nIssues: habitual notification checking, self-interruption, weak digital boundaries\nAdvice:\n- Use Do Not Disturb mode AND put your phone face-down\n- Identify your trigger: boredom, anxiety, or pure habit?\n- Practice a 30-second urge pause before picking up your phone\nMini Challenge: Next study session, track how many times you pick up your phone without meaning to.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I literally cannot remember what I studied yesterday. feels like nothing sticks",
+    "output": "Brain Status: Cooked 🔥\nScore: 79\nIssues: poor memory retention, passive studying habits, lack of retrieval practice\nAdvice:\n- Switch from reading to active recall: close the book and write what you remember\n- Use spaced repetition apps like Anki\n- Sleep is when memory consolidates, are you getting enough?\nMini Challenge: Without looking at your notes, write down 3 things you studied this week.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I use the Pomodoro method and track my sessions. I average about 6 Pomodoros per day.",
+    "output": "Brain Status: Focused 🧘\nScore: 18\nIssues: none significant\nAdvice:\n- 6 Pomodoros is excellent, you are in top tier focus habits\n- Try themed Pomodoros: all sessions in one block on one subject\n- Review your session logs weekly to spot energy patterns\nMini Challenge: Rate each Pomodoro out of 10 for focus quality today.",
+    "label": "Focused"
+  },
+  {
+    "input": "I get distracted by hunger, tiredness, noisy roommates. Hard to focus but I try.",
+    "output": "Brain Status: Distracted 😵\nScore: 48\nIssues: environmental distractions, physical needs interrupting focus\nAdvice:\n- Eat a snack before studying so hunger does not pull you away\n- Use earplugs or noise-canceling headphones for roommate noise\n- Study in a library when your environment is too chaotic\nMini Challenge: Before your next study session, eat, drink water, and put on headphones.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I haven't been able to read more than 2 pages of anything in months. i just skim everything",
+    "output": "Brain Status: Cooked 🔥\nScore: 82\nIssues: reduced reading stamina, skimming habit, shortened attention span\nAdvice:\n- Practice deep reading: one article per day, no skimming allowed\n- Use a physical book, screens make skimming too easy\n- Can you read for 10 minutes straight? Start there.\nMini Challenge: Read one full article today without skimming. Summarize it in 3 sentences.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I study at the library most days. No phone, no social media. I finish my daily goals consistently.",
+    "output": "Brain Status: Focused 🧘\nScore: 9\nIssues: none significant\nAdvice:\n- Library environment is a power move, keep it up\n- Build on your consistency with weekly milestones\n- Try explaining concepts to classmates to deepen understanding\nMini Challenge: Set a monthly goal today and break it into weekly chunks.",
+    "label": "Focused"
+  },
+  {
+    "input": "sometimes i focus ok. but then a notif comes and boom its been an hour and i havent done anything",
+    "output": "Brain Status: Distracted 😵\nScore: 58\nIssues: notification vulnerability, task-switching cost, inconsistent recovery\nAdvice:\n- Turn on full Do Not Disturb, not just silent mode\n- If you lose an hour, do not spiral: reset and do 10 minutes\n- Treat each focus block as a fresh start\nMini Challenge: Enable Do Not Disturb right now and study for 20 minutes.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I haven't finished a single assignment on time this semester. I always start the night before.",
+    "output": "Brain Status: Cooked 🔥\nScore: 80\nIssues: chronic procrastination, deadline dependency, poor time estimation\nAdvice:\n- Break assignments into micro-tasks with mini-deadlines\n- Use a weekly planner and assign work to specific days\n- Tell a friend your deadline to create social accountability\nMini Challenge: Take your next assignment and break it into 5 small steps right now.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I review my notes the same day I take them and again 3 days later. Spaced repetition is key for me.",
+    "output": "Brain Status: Focused 🧘\nScore: 11\nIssues: none significant\nAdvice:\n- Spaced repetition is elite-level study science, you are doing it right\n- Add a 7-day and 21-day review to your cycle\n- Consider making Anki cards from your notes for automated scheduling\nMini Challenge: Set a calendar reminder to review today's notes in exactly 3 days.",
+    "label": "Focused"
+  },
+  {
+    "input": "I get a lot done some days but other days I just stare at the screen and nothing happens.",
+    "output": "Brain Status: Distracted 😵\nScore: 50\nIssues: inconsistent output, initiation difficulty on low days, motivation spikes\nAdvice:\n- On low-energy days, lower the bar: 20 minutes counts as a win\n- Build a startup ritual to reduce initiation friction\n- Track your mood alongside your study hours to find patterns\nMini Challenge: On your next low day, just open your notes and read for 5 minutes. That is the whole task.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I spent 6 hours researching for an essay but mostly just read random Wikipedia articles.",
+    "output": "Brain Status: Cooked 🔥\nScore: 74\nIssues: productive procrastination, unfocused research, topic avoidance\nAdvice:\n- Define your research question before opening any tabs\n- Give yourself a 3-source limit per session\n- Use a timer: 20 minutes of research, then write something\nMini Challenge: Write one sentence summarizing what your essay is actually about.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I work best in 45-minute blocks with 10-minute breaks. I've been doing this for a year and it works well for me.",
+    "output": "Brain Status: Focused 🧘\nScore: 14\nIssues: none significant\nAdvice:\n- You have found your rhythm, that is rare and valuable\n- Protect your break time too: real rest, not phone scrolling\n- Experiment with longer blocks occasionally to build endurance\nMini Challenge: During your next break, go for a 5-minute walk instead of checking your phone.",
+    "label": "Focused"
+  },
+  {
+    "input": "cant focus at home. keep getting up, making food, lying on the couch. nothing gets done.",
+    "output": "Brain Status: Cooked 🔥\nScore: 71\nIssues: environment-triggered procrastination, comfort zone avoidance, home distraction\nAdvice:\n- Your home is not a study space, try a cafe or library\n- Create a study corner with no couch or TV in view\n- Pre-commit: pack your bag the night before to reduce friction\nMini Challenge: Go to a library or cafe for your next study session. Just once.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I try to study but my mind keeps jumping to other worries. Hard to stay on topic.",
+    "output": "Brain Status: Distracted 😵\nScore: 53\nIssues: anxiety-driven distraction, rumination, cognitive load from worry\nAdvice:\n- Try a 5-minute worry dump before studying: write all anxious thoughts out\n- Mindfulness breathing for 2 minutes before a session helps reset\n- If a worry is actionable, schedule it. If not, let it go.\nMini Challenge: Before your next session, spend 3 minutes writing down everything on your mind.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I wake up, drink coffee, and immediately sit at my desk. I study for 3 hours before checking my phone.",
+    "output": "Brain Status: Focused 🧘\nScore: 7\nIssues: none significant\nAdvice:\n- Phone-free mornings are one of the highest-leverage habits, keep it\n- Consider adding a 5-minute planning session to your morning\n- Protect this window, do not let social plans erode it\nMini Challenge: Write down what you will accomplish in tomorrow's morning session tonight.",
+    "label": "Focused"
+  },
+  {
+    "input": "I've been meaning to start studying for two weeks. I have all the materials but just can't begin.",
+    "output": "Brain Status: Cooked 🔥\nScore: 86\nIssues: chronic initiation failure, perfectionism paralysis, avoidance behavior\nAdvice:\n- The first step is always the hardest: open one document and read one line\n- Lower your standards for starting: imperfect progress beats perfect inaction\n- Tell someone your start time to create accountability\nMini Challenge: Open your study material RIGHT NOW. Read the first sentence. That is it.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I don't have a fixed schedule but I make sure to get study time in every day. Some days more, some less.",
+    "output": "Brain Status: Distracted 😵\nScore: 40\nIssues: inconsistent schedule, variable output, no structured baseline\nAdvice:\n- A minimum daily floor even 30 minutes builds more than sporadic long sessions\n- Pick one fixed time per day as your anchor session\n- Track your daily minutes to visualize your consistency\nMini Challenge: Decide on a minimum daily study time and write it down as a commitment.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I use cold showers and exercise to prime my focus. My study blocks are very productive.",
+    "output": "Brain Status: Focused 🧘\nScore: 13\nIssues: none significant\nAdvice:\n- Physical priming is science-backed, great habit stack\n- Try brief exercise before especially hard sessions\n- Protect sleep too: exercise and focus without sleep has limits\nMini Challenge: Log your energy level before and after your next workout-then-study sequence.",
+    "label": "Focused"
+  },
+  {
+    "input": "i keep saying ill study after dinner and then its suddenly midnight and i did nothing",
+    "output": "Brain Status: Cooked 🔥\nScore: 77\nIssues: evening procrastination, vague intentions, time blindness\nAdvice:\n- After dinner is not a time. Set a specific hour.\n- Use a visual countdown: set a timer for your study start\n- Prepare your study space before dinner so there is no setup barrier\nMini Challenge: Set an alarm right now for your study start time tomorrow.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I study with a friend twice a week. We quiz each other and it keeps me accountable.",
+    "output": "Brain Status: Focused 🧘\nScore: 20\nIssues: none significant\nAdvice:\n- Peer study is excellent for accountability and recall\n- Add one solo session per week to build independent focus\n- Use the quiz format for all your review not just peer sessions\nMini Challenge: Quiz yourself on yesterday's material right now, no notes allowed.",
+    "label": "Focused"
+  },
+  {
+    "input": "I feel guilty about not studying but when I try to I just freeze. It's a cycle.",
+    "output": "Brain Status: Cooked 🔥\nScore: 81\nIssues: guilt-avoidance loop, freeze response, emotional study block\nAdvice:\n- Break the guilt loop: small action beats perfect planning\n- Start with your easiest task to build momentum\n- Separate your worth from your productivity, guilt makes things worse\nMini Challenge: Do the easiest thing on your to-do list right now. One small win.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I put my phone on airplane mode when I study. It helps a lot, though I still get mentally distracted sometimes.",
+    "output": "Brain Status: Distracted 😵\nScore: 32\nIssues: occasional mental wandering despite phone control\nAdvice:\n- Airplane mode is a great habit, keep it\n- For mental wandering, try a focus cue: one deep breath before resuming\n- Note what you were thinking when you drifted, often it is unfinished tasks\nMini Challenge: Next time your mind wanders, write the thought down and immediately return to studying.",
+    "label": "Distracted"
+  },
+  {
+    "input": "my brain is so fried. i was on my phone until 3am and now i cant process anything",
+    "output": "Brain Status: Cooked 🔥\nScore: 90\nIssues: sleep deprivation, late-night screen exposure, cognitive impairment from exhaustion\nAdvice:\n- Sleep deprivation is the number one focus killer, no hack fixes this\n- Set a phone curfew: no screens after 11 PM\n- On days you are this tired, rest is more productive than forcing study\nMini Challenge: Set a phone curfew alarm for tonight. Put it at 10:30 PM.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I use an app that locks social media during my study hours. It's been a game changer.",
+    "output": "Brain Status: Focused 🧘\nScore: 16\nIssues: none significant\nAdvice:\n- App blocking is a smart system, willpower alone rarely works\n- Consider extending the block to leisure time too for a reset\n- Share your setup with a friend who struggles\nMini Challenge: Add one more app to your block list that you have not blocked yet.",
+    "label": "Focused"
+  },
+  {
+    "input": "I study for 20 mins but spend 10 mins of that thinking about what snack to get",
+    "output": "Brain Status: Distracted 😵\nScore: 46\nIssues: physical needs distracting cognition, poor pre-session preparation\nAdvice:\n- Prepare snacks before your session starts to remove the decision\n- Eat a proper meal before studying so hunger does not intrude\n- If a thought is not about the task, write it down and move on\nMini Challenge: Before your next session, get water, snacks, and everything you need. Then close the kitchen.",
+    "label": "Distracted"
+  },
+  {
+    "input": "i genuinely forgot what subject i was studying halfway through a session last week",
+    "output": "Brain Status: Cooked 🔥\nScore: 87\nIssues: severe working memory gaps, task-switching confusion, extreme attention fragmentation\nAdvice:\n- Write your subject and goal at the top of your notes before starting\n- Study only one subject per session, no mixing\n- You may be severely sleep-deprived or mentally overloaded: rest first\nMini Challenge: Before your next session write: Today I am studying blank. I want to finish blank.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I review past mistakes after every exam and adjust my methods. My scores have improved each semester.",
+    "output": "Brain Status: Focused 🧘\nScore: 10\nIssues: none significant\nAdvice:\n- Post-exam review is expert-level meta-learning, keep doing it\n- Add a what would I do differently note after every study session too\n- You are building a learning system not just memorizing content\nMini Challenge: After your next exam, spend 15 minutes writing what worked and what did not.",
+    "label": "Focused"
+  },
+  {
+    "input": "I start strong but get tired by the second hour and just end up browsing memes",
+    "output": "Brain Status: Distracted 😵\nScore: 44\nIssues: energy fade in extended sessions, meme distraction as escape\nAdvice:\n- Shorten sessions: 2 hours is too long without proper breaks\n- Take a real break at the 45-minute mark: walk, stretch, drink water\n- Save memes as a reward after the session not during\nMini Challenge: Set a 45-minute timer. When it goes off, take a 10-minute real break. No phone during the 45.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I plan weekly study goals every Sunday and check them off as I go. Very structured.",
+    "output": "Brain Status: Focused 🧘\nScore: 12\nIssues: none significant\nAdvice:\n- Weekly planning is a cornerstone habit, excellent\n- Add a Friday review to measure progress against Sunday's plan\n- Consider adding energy and mood to your weekly log\nMini Challenge: Add what percentage of last week's plan did I complete to this Sunday's review.",
+    "label": "Focused"
+  },
+  {
+    "input": "I try to focus but my ADHD makes it really hard. Some sessions go ok, many don't.",
+    "output": "Brain Status: Distracted 😵\nScore: 56\nIssues: executive function challenges, variable focus, high session unpredictability\nAdvice:\n- Body doubling studying near someone else can help with ADHD focus\n- Break tasks into the smallest possible chunks\n- External structure like timers and written goals compensates for internal dysregulation\nMini Challenge: Try a 10-minute body-doubling session on YouTube. Search body doubling study with me.",
+    "label": "Distracted"
+  },
+  {
+    "input": "everything feels overwhelming so i just dont start. been like this for weeks.",
+    "output": "Brain Status: Cooked 🔥\nScore: 84\nIssues: overwhelm-induced paralysis, sustained avoidance pattern, motivation collapse\nAdvice:\n- Pick the single smallest task and forget the rest for now\n- Write a brain dump of everything stressing you out, it shrinks once visible\n- Talk to someone: this pattern often has an emotional root\nMini Challenge: Write down every task you are avoiding on paper. Then circle the tiniest one. Do just that.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I can read a whole chapter without checking my phone. It just takes me a bit to get into the zone.",
+    "output": "Brain Status: Focused 🧘\nScore: 25\nIssues: mild warm-up period before focus kicks in\nAdvice:\n- Your get-into-zone time is normal and can be shortened\n- Build a consistent 2-minute pre-study ritual to trigger focus faster\n- Keep reading long-form, it is rare and builds focus stamina\nMini Challenge: Time how long it takes to reach your focus zone today. Then try to beat it tomorrow.",
+    "label": "Focused"
+  },
+  {
+    "input": "I multitask: studying, texting, watching lectures at 2x. Feel like I'm being productive but retain nothing.",
+    "output": "Brain Status: Cooked 🔥\nScore: 75\nIssues: false productivity, multitasking overconfidence, poor retention\nAdvice:\n- Multitasking is a myth for cognitive tasks, you are task-switching at a cost\n- Watch lectures at normal speed with full attention, no phone\n- One input at a time: reading or audio, not both\nMini Challenge: Watch the next 10 minutes of your lecture with nothing else open. Then write 3 things you learned.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I journal every night including what I studied and what I want to improve. Been doing it for 6 months.",
+    "output": "Brain Status: Focused 🧘\nScore: 14\nIssues: none significant\nAdvice:\n- Journaling builds metacognition, you are literally training your brain\n- Add a tomorrow's priority to your evening entry\n- Review your journal monthly for long-term pattern recognition\nMini Challenge: Add a 1-5 rating of your focus quality to tonight's journal entry.",
+    "label": "Focused"
+  },
+  {
+    "input": "I have 3 assignments due tomorrow and I'm on my phone writing this instead of doing them.",
+    "output": "Brain Status: Cooked 🔥\nScore: 93\nIssues: crisis procrastination, deadline blindness, avoidance under pressure\nAdvice:\n- Stop everything. Open your first assignment now.\n- Prioritize by fastest to complete not hardest, build momentum\n- You already know what to do, the answer is just starting\nMini Challenge: Put your phone down. Open assignment 1. Set a 30-minute timer. Go.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I do study with me YouTube sessions. The social pressure even from strangers helps me focus.",
+    "output": "Brain Status: Focused 🧘\nScore: 19\nIssues: none significant\nAdvice:\n- Social accountability tools are underrated, great use of them\n- Try live study streams where you state your goal at the start\n- The technique works best when you close all other tabs during it\nMini Challenge: Next session, write your goal in the YouTube chat at the start. It makes it real.",
+    "label": "Focused"
+  },
+  {
+    "input": "I watch lecture recordings at 3x speed while eating and then wonder why I didn't learn anything",
+    "output": "Brain Status: Cooked 🔥\nScore: 72\nIssues: passive learning habits, multitasking while learning, speed-watching illusion\nAdvice:\n- 1.5x with full attention beats 3x while distracted every time\n- Do not eat while watching, it splits attention\n- Pause and take notes every 5-10 minutes\nMini Challenge: Rewatch 10 minutes of your last lecture at 1.5x. Pause twice to write notes.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I like to study topics I enjoy more than required material. Hard to force myself to do boring subjects.",
+    "output": "Brain Status: Distracted 😵\nScore: 43\nIssues: interest-based avoidance, required work deprioritized, selective engagement\nAdvice:\n- Do the boring subject first, your brain resists it less when it is fresh\n- Gamify boring topics: set a timer, track pages per session\n- Link boring material to a subject you love to add meaning\nMini Challenge: Spend 15 minutes on your least favorite subject before doing anything you enjoy today.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I read textbooks and highlight everything. Then when I review I realize I understand none of it.",
+    "output": "Brain Status: Distracted 😵\nScore: 57\nIssues: passive reading habit, highlighting illusion of learning, poor comprehension\nAdvice:\n- Highlighting everything means nothing is highlighted, be selective\n- After each section close the book and write what you understood\n- Active recall beats re-reading and highlighting every time\nMini Challenge: Next time you finish a page, close the book and write 3 things you just read from memory.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I literally cannot do anything without background noise but music with lyrics derails me completely.",
+    "output": "Brain Status: Distracted 😵\nScore: 39\nIssues: noise sensitivity, lyric distraction, suboptimal audio environment\nAdvice:\n- Brown noise, rain sounds, or lo-fi instrumentals are proven to help\n- Try binaural beats at 40Hz, some studies show focus benefits\n- Build a dedicated study playlist with zero lyrics\nMini Challenge: Create a 30-minute instrumental study playlist right now and use it today.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I do practice problems instead of just reading. Testing myself is how I actually learn.",
+    "output": "Brain Status: Focused 🧘\nScore: 11\nIssues: none significant\nAdvice:\n- Practice testing is the highest-efficacy study method in cognitive science\n- Add a retrieval warm-up at the start of each session\n- Struggle is learning: do not look at answers too quickly\nMini Challenge: Before opening your notes today, write down everything you remember from the last session.",
+    "label": "Focused"
+  },
+  {
+    "input": "I lose 30-40 mins every study session just figuring out what to study next",
+    "output": "Brain Status: Distracted 😵\nScore: 47\nIssues: decision overhead, poor session pre-planning, time loss from indecision\nAdvice:\n- Plan your next session at the end of each current one\n- Write tomorrow's task on a sticky note before you close your laptop\n- Reduce options: study one subject per day not multiple\nMini Challenge: Before closing your laptop tonight, write exactly what you will do in your next session.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I haven't read a book cover-to-cover in 2 years. I just can't sustain it anymore.",
+    "output": "Brain Status: Cooked 🔥\nScore: 70\nIssues: long-form attention atrophy, reading stamina loss, short-form content dominance\nAdvice:\n- Start with short books or essays to rebuild stamina\n- Read physical books, e-readers and phones trigger scrolling habits\n- 20 pages per day is all you need to read 10 books per year\nMini Challenge: Pick a short book today. Read the first 5 pages. Physical copy preferred.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I prep my study space the night before: notes out, phone in another room, water ready.",
+    "output": "Brain Status: Focused 🧘\nScore: 8\nIssues: none significant\nAdvice:\n- Friction reduction is a systems-thinking approach to focus, elite habit\n- Add a session goal written on a card to your prep routine\n- Share your prep system with someone who struggles\nMini Challenge: Add one more prep step tonight that would make tomorrow's session even easier.",
+    "label": "Focused"
+  },
+  {
+    "input": "i get so distracted by my own thoughts during lectures. my mind just goes somewhere else",
+    "output": "Brain Status: Distracted 😵\nScore: 54\nIssues: mind-wandering during passive learning, poor lecture engagement\nAdvice:\n- Take handwritten notes during lectures, it forces processing\n- Ask yourself questions about the content while listening\n- Sit at the front, it feels weird but dramatically reduces daydreaming\nMini Challenge: In your next lecture, write one question per slide or topic covered.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I set 50 alarms to remind me to study but ignore all of them",
+    "output": "Brain Status: Cooked 🔥\nScore: 78\nIssues: alarm fatigue, intention-action gap, self-regulation failure\nAdvice:\n- Alarms without rituals are just noise, attach action to a trigger instead\n- Use implementation intentions: when I sit down after lunch I will open my notes\n- One alarm that you honor beats 50 you ignore\nMini Challenge: Set ONE alarm for tomorrow with the label Open notes for 10 min. Honor just that one.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I exercise every day and I've noticed my focus is much better on workout days.",
+    "output": "Brain Status: Focused 🧘\nScore: 17\nIssues: none significant\nAdvice:\n- Exercise-focus correlation is well-documented, you have discovered it firsthand\n- Try studying within 2 hours of your workout for maximum BDNF benefit\n- Even a 10-minute walk counts if a full workout is not possible\nMini Challenge: Schedule your next workout and study session back-to-back on your calendar.",
+    "label": "Focused"
+  },
+  {
+    "input": "I procrastinate hard but once I start I'm usually fine. Getting started is the whole problem.",
+    "output": "Brain Status: Distracted 😵\nScore: 41\nIssues: initiation resistance, pre-task anxiety, start barrier\nAdvice:\n- You know starting fixes it, so shrink the start to nothing\n- Use the 2-minute rule: commit to just 2 minutes then reassess\n- Create a physical start ritual: open notebook, write date, write subject\nMini Challenge: Next time you feel resistance, set a 2-minute timer and just open the work. Nothing else.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I forget to eat, sleep, or take breaks when I'm in the zone. I study for 6-8 hours straight sometimes.",
+    "output": "Brain Status: Focused 🧘\nScore: 28\nIssues: hyperfocus with neglected physical recovery\nAdvice:\n- Deep focus is a gift, protect it by protecting your body too\n- Set a recurring alarm every 90 minutes to eat, move, hydrate\n- Unsustainable patterns burn out even the most focused people\nMini Challenge: Set a 90-minute alarm as a health check-in during your next long session.",
+    "label": "Focused"
+  },
+  {
+    "input": "every time i try to focus i think about the texts i havent replied to and feel anxious",
+    "output": "Brain Status: Distracted 😵\nScore: 51\nIssues: social anxiety interrupting focus, unread message stress\nAdvice:\n- Reply to important messages before your session to clear the mental queue\n- Tell people you are studying and will reply at a specific time to remove guilt\n- Anxiety about texts is a focus leak: patch it before you start\nMini Challenge: Before your next session, reply to any pending texts. Then put phone away guilt-free.",
+    "label": "Distracted"
+  },
+  {
+    "input": "i havent touched my study materials in 2 weeks. i feel like giving up honestly",
+    "output": "Brain Status: Cooked 🔥\nScore: 89\nIssues: extended disengagement, motivation collapse, possible burnout\nAdvice:\n- Two weeks off can mean burnout, rest might be what you need not pushing harder\n- Talk to someone about how you are feeling, this sounds heavier than just distraction\n- If you want to restart, do the absolute minimum: 5 minutes, nothing more\nMini Challenge: Do not study today. Instead, write 3 sentences about why this matters to you.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I take a 10-minute walk between study sessions. Fresh air helps me reset.",
+    "output": "Brain Status: Focused 🧘\nScore: 16\nIssues: none significant\nAdvice:\n- Walking breaks are one of the most effective cognitive recovery tools\n- Try to make them phone-free walks for maximum mental reset\n- Add a moment of intention-setting after each walk before resuming\nMini Challenge: During your next walk break, leave your phone behind. Just walk and think.",
+    "label": "Focused"
+  },
+  {
+    "input": "I spent an hour color-coding my notes instead of actually studying the content",
+    "output": "Brain Status: Distracted 😵\nScore: 49\nIssues: aesthetic procrastination, busyness over learning, false productivity\nAdvice:\n- Pretty notes do not equal learned content, test yourself instead\n- Limit formatting time to 5 minutes max per session\n- If color-coding helps review later, do it after studying not instead of it\nMini Challenge: Set a timer: 5 minutes max for formatting, then quiz yourself on the content.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I can't get through a YouTube video without skipping ahead every 30 seconds.",
+    "output": "Brain Status: Cooked 🔥\nScore: 68\nIssues: skipping behavior, reduced patience for linear content, fast-forward addiction\nAdvice:\n- This is your attention span showing its current shape, it is reversible\n- Practice watching one full 10-minute video without skipping\n- TED Talks are good training: they are short, high-quality, and engaging\nMini Challenge: Watch one video today at normal speed, no skipping. Pick something you are curious about.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I make mind maps of everything I study. It helps me see the big picture and stay organized.",
+    "output": "Brain Status: Focused 🧘\nScore: 13\nIssues: none significant\nAdvice:\n- Mind mapping activates visual-spatial memory, great technique\n- Add a verbal explanation step: explain the map out loud after drawing it\n- Review your maps before exams, the visual layout aids recall\nMini Challenge: After your next study session, redraw your mind map from memory without looking.",
+    "label": "Focused"
+  },
+  {
+    "input": "my screen time is 11 hours today and it's only 4pm",
+    "output": "Brain Status: Cooked 🔥\nScore: 95\nIssues: extreme screen dependency, entire day consumed by devices\nAdvice:\n- 11 hours before 4 PM is a crisis level, immediate reset needed\n- Put your phone in a drawer for the next 2 hours right now\n- Replace one hour of screen time with a walk, a meal, or physical activity\nMini Challenge: Put your phone down right now. Go outside for 20 minutes. No exceptions.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I use an accountability partner. We check in every evening about what we accomplished.",
+    "output": "Brain Status: Focused 🧘\nScore: 15\nIssues: none significant\nAdvice:\n- Social accountability is one of the strongest behavior-change tools\n- Add morning intention-sharing to your check-in routine\n- Make sure your partner is also committed, accountability is mutual\nMini Challenge: In tonight's check-in, share not just what you did but what you will do tomorrow.",
+    "label": "Focused"
+  },
+  {
+    "input": "I've rewritten the same introduction paragraph 7 times today. Can't move forward.",
+    "output": "Brain Status: Distracted 😵\nScore: 60\nIssues: perfectionism loop, forward motion blocked, intro fixation\nAdvice:\n- Write DRAFT at the top and give yourself permission to write badly\n- Skip the intro and write the body first, come back to intro last\n- Set a 10-minute timer for the intro, when it goes off move on regardless\nMini Challenge: Write BAD DRAFT on your intro and skip to the next section right now.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I take breaks every 25 minutes using the Pomodoro method. Rarely check my phone during sessions.",
+    "output": "Brain Status: Focused 🧘\nScore: 13\nIssues: none significant\nAdvice:\n- Pomodoro is a proven focus system, you are using it correctly\n- During breaks, avoid screens to let your brain truly rest\n- Consider deep work blocks of 90 minutes once you have built up stamina\nMini Challenge: In your next Pomodoro break, step away from all screens for the full 5 minutes.",
+    "label": "Focused"
+  },
+  {
+    "input": "I know I should study but doomscrolling the news feels more urgent. Constant anxiety.",
+    "output": "Brain Status: Cooked 🔥\nScore: 76\nIssues: news anxiety driving avoidance, doomscrolling compulsion, anxiety-study conflict\nAdvice:\n- Set a news window: 15 minutes once per day then close it\n- Staying constantly informed does not change outcomes, it drains your capacity\n- Grounding exercise before study: 5 breaths, write one thing you can control today\nMini Challenge: Close all news apps for the next 2 hours. The news will still be there.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I keep a weekly study log and have maintained a 4.0 GPA this semester.",
+    "output": "Brain Status: Focused 🧘\nScore: 9\nIssues: none significant\nAdvice:\n- GPA plus tracking equals disciplined learning system, exceptional\n- Share your methods with peers who are struggling\n- Watch for burnout: high performance sustained without rest has costs\nMini Challenge: Schedule one full rest day this week with zero academic work. You have earned it.",
+    "label": "Focused"
+  },
+  {
+    "input": "i open tiktok just for 2 minutes and then it's been 3 hours and I don't know how",
+    "output": "Brain Status: Cooked 🔥\nScore: 92\nIssues: TikTok time blindness, algorithmic capture, severe underestimation of usage\nAdvice:\n- Delete TikTok from your phone during study weeks, no willpower needed\n- If you cannot delete it, set app limits in screen time settings\n- Replace the first 2 minutes with a different ritual: open notes immediately\nMini Challenge: Set a 2-hour app lock on TikTok right now using your phone's screen time settings.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I read before bed every night instead of scrolling. Usually 20-30 pages.",
+    "output": "Brain Status: Focused 🧘\nScore: 12\nIssues: none significant\nAdvice:\n- Bedtime reading is one of the best sleep and cognitive habits\n- Physical books before bed improve sleep quality versus screens\n- Try reading something related to what you studied for passive reinforcement\nMini Challenge: Tonight, read something connected to a topic you studied this week.",
+    "label": "Focused"
+  },
+  {
+    "input": "I study but I'm constantly switching between subjects every 10 minutes. Never deep into any of them.",
+    "output": "Brain Status: Distracted 😵\nScore: 62\nIssues: subject-switching behavior, shallow processing, no deep engagement\nAdvice:\n- Commit to one subject per session, switching has a huge cognitive cost\n- Your brain needs 15-20 minutes to enter deep focus in any subject\n- Build subject slots: Monday equals Math, Tuesday equals Science\nMini Challenge: Pick ONE subject for your entire next study session. No switching allowed.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I planned to study for 4 hours today and studied for 20 minutes. Then gave up.",
+    "output": "Brain Status: Cooked 🔥\nScore: 73\nIssues: overplanning, gap between plan and execution, defeat cycle after small failure\nAdvice:\n- 20 minutes is a win not a failure, recalibrate your expectations\n- Plan for 1 hour not 4, overambitious plans breed avoidance\n- After 20 minutes ask: can I do 10 more? Usually yes.\nMini Challenge: Plan exactly 30 minutes of study for tomorrow. Not 4 hours. 30 minutes.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I study better in the morning. I protect my 7-9 AM slot like it's sacred.",
+    "output": "Brain Status: Focused 🧘\nScore: 11\nIssues: none significant\nAdvice:\n- Protecting peak hours is high-leverage time management\n- Tell people your mornings are unavailable, social protection of focus time\n- Stack your hardest tasks into this window for maximum output\nMini Challenge: Block your 7-9 AM slot in your calendar for the entire next week right now.",
+    "label": "Focused"
+  },
+  {
+    "input": "i re-read my notes 5 times thinking it will help but exams show it doesnt",
+    "output": "Brain Status: Distracted 😵\nScore: 59\nIssues: passive re-reading habit, ineffective study method, false confidence from familiarity\nAdvice:\n- Re-reading creates familiarity not learning, they feel the same but are not\n- Replace re-reading with retrieval: close notes and try to recall\n- Flashcards, practice tests, and teaching are all more effective\nMini Challenge: Close your notes right now and write everything you know about the topic from memory.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I batch my admin tasks on Fridays so my study days stay clean and uninterrupted.",
+    "output": "Brain Status: Focused 🧘\nScore: 10\nIssues: none significant\nAdvice:\n- Task batching is a pro-level cognitive load management strategy\n- Apply the same batching to emails, errands, and social media\n- Keep a parking lot doc during study days for tasks that come up\nMini Challenge: Create a Friday list right now and add the next 3 admin tasks that are distracting you.",
+    "label": "Focused"
+  },
+  {
+    "input": "i cant concentrate for more than 30 seconds. my brain is just gone.",
+    "output": "Brain Status: Cooked 🔥\nScore: 96\nIssues: near-complete attention collapse, extreme fragmentation, possible burnout\nAdvice:\n- This is beyond study tips, your brain needs real rest\n- Take a full day off screens and devices: sleep, walk, eat well\n- If this has lasted weeks, speak to a doctor or mental health professional\nMini Challenge: Today: no studying. Drink water, go outside, sleep 8 hours. Start fresh tomorrow.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I set learning objectives at the start of each session. Makes me clear on what I'm actually trying to do.",
+    "output": "Brain Status: Focused 🧘\nScore: 14\nIssues: none significant\nAdvice:\n- Learning objectives create purpose, that is a metacognitive power move\n- Add a 5-minute end-of-session review: did you meet the objective?\n- Share your objectives with a study partner for added accountability\nMini Challenge: Write your learning objective for your next session right now before you close this app.",
+    "label": "Focused"
+  },
+  {
+    "input": "i have 3 monitors and 12 apps open and somehow get nothing done",
+    "output": "Brain Status: Cooked 🔥\nScore: 83\nIssues: cognitive overload from open apps, multitasking illusion, digital clutter\nAdvice:\n- Close everything except what you need right now, one app at a time\n- Use full-screen mode so nothing else is visible\n- More screens does not mean more productivity, they split attention\nMini Challenge: Right now close all apps except one. Open your most important task.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I meal prep on Sundays so I never have to think about food during the week. One less thing to distract me.",
+    "output": "Brain Status: Focused 🧘\nScore: 13\nIssues: none significant\nAdvice:\n- Decision elimination is advanced focus engineering, brilliant\n- Apply the same thinking to your study setup: same place, same time\n- Consider prepping your study materials Sunday too\nMini Challenge: This Sunday, prep one study session alongside your meal prep.",
+    "label": "Focused"
+  },
+  {
+    "input": "i panic when exams are near but do nothing to fix it. just vibe and hope.",
+    "output": "Brain Status: Cooked 🔥\nScore: 82\nIssues: anxiety without action, passive coping, hope-based planning\nAdvice:\n- Panic without action drains energy and does nothing\n- Make a simple exam plan: days left times daily topics equals a real schedule\n- Action, even imperfect action, beats anxiety every time\nMini Challenge: Count the days to your exam. Divide your material across those days. Write it out now.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I study one topic per day and don't move on until I understand it. Slow but solid.",
+    "output": "Brain Status: Focused 🧘\nScore: 16\nIssues: none significant\nAdvice:\n- Mastery-based learning is more durable than breadth-first studying\n- Make sure you are testing understanding not just feeling like you understand\n- Try interleaving occasionally: mixing subjects builds flexible thinking\nMini Challenge: At the end of today's topic, explain it out loud as if teaching a 10-year-old.",
+    "label": "Focused"
+  },
+  {
+    "input": "I can focus on games for 6 hours but not on studying for 20 minutes. How is that fair.",
+    "output": "Brain Status: Cooked 🔥\nScore: 69\nIssues: dopamine disparity between fun and study tasks, motivational imbalance\nAdvice:\n- Games are designed to be more engaging than studying, it is not a character flaw\n- Add game-like elements to study: points, streaks, challenges, levels\n- Use game time as a reward after study not before\nMini Challenge: Set a rule: 20 minutes of studying unlocks 30 minutes of gaming. Start the 20 now.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I review my goals every morning and evening. Takes 5 minutes but keeps me on track.",
+    "output": "Brain Status: Focused 🧘\nScore: 12\nIssues: none significant\nAdvice:\n- Morning and evening bookending is a powerful intention system\n- Add a what did I avoid today question to the evening review\n- This habit alone places you in the top tier of focus practitioners\nMini Challenge: Add one new question to your evening review: What would make tomorrow better?",
+    "label": "Focused"
+  },
+  {
+    "input": "I lose focus because my study space is messy and I end up cleaning instead of studying",
+    "output": "Brain Status: Distracted 😵\nScore: 36\nIssues: environmental distraction trigger, cleaning as procrastination\nAdvice:\n- Clean your space the night before so it is ready when you sit down\n- If you start cleaning during a session, set a 5-minute max then stop\n- A slightly messy space beats a clean space you cleaned instead of studying\nMini Challenge: Spend 10 minutes cleaning your desk tonight. Then it is done for tomorrow.",
+    "label": "Distracted"
+  },
+  {
+    "input": "no matter what i try i end up on my phone. its like an automatic reflex at this point",
+    "output": "Brain Status: Cooked 🔥\nScore: 88\nIssues: automatic phone-reaching behavior, strong habit loop, low awareness\nAdvice:\n- Awareness is step one, you have identified the loop\n- Make the habit physically harder: put phone in a bag in another room\n- Replace the reflex with a micro-habit: drink water when you feel the urge\nMini Challenge: Next time you reach for your phone without meaning to, notice it and put it face down. Just notice.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I use time blocking in my calendar. Every hour of my day is planned including breaks.",
+    "output": "Brain Status: Focused 🧘\nScore: 10\nIssues: none significant\nAdvice:\n- Time blocking with planned breaks is elite focus architecture\n- Add buffer blocks between tasks for overruns\n- Review your blocks weekly: did you follow them? Why or why not?\nMini Challenge: Block next week in your calendar today including one overflow hour per day.",
+    "label": "Focused"
+  },
+  {
+    "input": "I constantly feel like I should be doing something but don't know what. Just restless.",
+    "output": "Brain Status: Distracted 😵\nScore: 61\nIssues: restless unfocused energy, unclear priorities, diffuse attention\nAdvice:\n- Write a brain dump: everything in your head on paper, then pick one thing\n- Restlessness often means too many open loops, close them one by one\n- Physical movement even 5 minutes can discharge restless energy\nMini Challenge: Write down every open task in your head right now. Then pick one. Just one.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I study but always feel the urge to 'quickly check' my phone every few minutes.",
+    "output": "Brain Status: Distracted 😵\nScore: 55\nIssues: phone-checking compulsion, partial focus, interrupted flow\nAdvice:\n- Place your phone across the room before sitting down\n- Create a physical trigger: touch your pen to paper before reaching for phone\n- Track urges without acting on them, awareness shrinks the habit\nMini Challenge: Count how many times you feel the urge to check your phone in one 20-minute session.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I have not opened my laptop for studying in over a month. I don't even feel bad anymore.",
+    "output": "Brain Status: Cooked 🔥\nScore: 94\nIssues: complete disengagement, emotional numbness, severe burnout signs\nAdvice:\n- Numbness to avoidance is a serious signal, please talk to someone you trust\n- Do not force a full return, start with one small symbolic action\n- Rest, reconnect with why you started, then rebuild slowly\nMini Challenge: Write one honest sentence about how you are really doing right now.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I study with a timer visible on my desk. Seeing time pass keeps me accountable.",
+    "output": "Brain Status: Focused 🧘\nScore: 17\nIssues: none significant\nAdvice:\n- Visible timers are a proven focus anchor, great habit\n- Try a tomato timer or analog clock for even less screen distraction\n- Combine with written goals for double accountability\nMini Challenge: Before your next session, write your goal and start your timer at the same moment.",
+    "label": "Focused"
+  },
+  {
+    "input": "I get distracted mid-sentence when writing essays. Forget what I was going to say constantly.",
+    "output": "Brain Status: Cooked 🔥\nScore: 71\nIssues: working memory disruption, writing flow broken, mid-task forgetting\nAdvice:\n- Voice-to-text your ideas first, then clean them up\n- Write in full distraction-free mode: one window, no other tabs\n- Bullet your next sentence before writing it to hold the thought\nMini Challenge: Write your next 3 essay sentences in a blank document with zero other windows open.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I write a to-do list every morning. I cross off at least 80% of it by end of day.",
+    "output": "Brain Status: Focused 🧘\nScore: 11\nIssues: none significant\nAdvice:\n- 80% completion rate is excellent, that is real follow-through\n- Look at the 20% that stays: is it always the same type of task?\n- Add a time estimate next to each task to improve planning accuracy\nMini Challenge: Next to each item on tomorrow's list, write how many minutes you think it will take.",
+    "label": "Focused"
+  },
+  {
+    "input": "i study for a bit then reward myself with 'just one episode' and suddenly its 2am",
+    "output": "Brain Status: Cooked 🔥\nScore: 80\nIssues: reward escalation, one episode trap, lost evenings\nAdvice:\n- Use a streaming timer extension that stops autoplay\n- Set a hard stop time for screens, like 11 PM, before starting the episode\n- Reward yourself with one episode after studying, then close the laptop\nMini Challenge: Tonight, watch only one episode and then close the laptop. Set an alarm for 30 minutes from now.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I find studying easier after I clean my space and make tea. It is a ritual that works.",
+    "output": "Brain Status: Focused 🧘\nScore: 15\nIssues: none significant\nAdvice:\n- Rituals are powerful focus triggers, your brain now associates tea and clean desk with focus\n- Keep the ritual short so it stays a trigger, not a delay\n- Experiment with adding one more cue like a specific playlist\nMini Challenge: Time your ritual today. Keep it under 10 minutes to preserve its power.",
+    "label": "Focused"
+  },
+  {
+    "input": "I always plan to study but end up convincing myself I am too tired even when I am not.",
+    "output": "Brain Status: Distracted 😵\nScore: 63\nIssues: tiredness as excuse, self-deception, avoidance rationalization\nAdvice:\n- Test it: start for 5 minutes. If you are truly tired you will feel it. If not, keep going.\n- Distinguish between physical tiredness and mental resistance, they feel similar but are different\n- Energy follows action: often you feel more awake after starting\nMini Challenge: Next time you feel too tired, study for exactly 5 minutes. Then decide.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I use Anki daily and have a streak of 90 days. Vocabulary retention is noticeably better.",
+    "output": "Brain Status: Focused 🧘\nScore: 10\nIssues: none significant\nAdvice:\n- 90-day streak is exceptional consistency, protect it as a keystone habit\n- Expand Anki use to other subjects beyond vocabulary\n- The streak itself is motivating, use it to anchor other habits\nMini Challenge: Add 10 new cards today from a subject you have been neglecting.",
+    "label": "Focused"
+  },
+  {
+    "input": "I pull all-nighters thinking more hours equals more learning. Feel destroyed the next day.",
+    "output": "Brain Status: Cooked 🔥\nScore: 85\nIssues: all-nighter dependency, sleep deprivation normalised, false productivity belief\nAdvice:\n- All-nighters impair memory consolidation the brain stores learning during sleep\n- Two focused hours well-rested beats eight hours sleep-deprived every time\n- End your study session at a fixed time and let sleep do the work\nMini Challenge: Set a study cutoff time tonight and stick to it no matter what.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I get distracted whenever I hit a hard concept. I just skip it and move to easier parts.",
+    "output": "Brain Status: Distracted 😵\nScore: 58\nIssues: difficulty avoidance, shallow coverage of hard material, comfort zone studying\nAdvice:\n- Hard concepts are where the real learning happens, sit with the discomfort\n- Mark hard sections and return to them first next session when fresh\n- Try explaining what you do not understand out loud, it reveals exact gaps\nMini Challenge: Pick the hardest thing you have been skipping. Spend 10 minutes on just that.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I have a no-phone policy at my desk. Been doing it for 6 months and my grades improved.",
+    "output": "Brain Status: Focused 🧘\nScore: 11\nIssues: none significant\nAdvice:\n- Environmental design beats willpower every time, you proved it\n- Apply the same no-distraction logic to your browser with an extension\n- Your system is working, document it so you can rebuild if life disrupts it\nMini Challenge: Write down your exact study setup as a reference card you can return to.",
+    "label": "Focused"
+  },
+  {
+    "input": "I am supposed to be studying right now but I have read this question 4 times and cannot process it.",
+    "output": "Brain Status: Cooked 🔥\nScore: 87\nIssues: active cognitive overload, reading comprehension failure, mental fatigue\nAdvice:\n- Stop and take a genuine break: water, stretch, close your eyes for 5 minutes\n- Do not push through mental fog, it wastes time and builds frustration\n- Come back fresh: 10 minutes of rest beats 30 minutes of unproductive struggle\nMini Challenge: Stop right now. Drink a glass of water. Come back in 10 minutes.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I write summaries after every lecture in my own words. Helps me catch what I missed.",
+    "output": "Brain Status: Focused 🧘\nScore: 14\nIssues: none significant\nAdvice:\n- Post-lecture summarizing in your own words is one of the best encoding techniques\n- Add a question at the end of each summary: what do I still not understand?\n- Compare your summaries before exams as a high-efficiency review method\nMini Challenge: After today's lecture, write a 5-sentence summary in your own words before doing anything else.",
+    "label": "Focused"
+  },
+  {
+    "input": "I spend way more time setting up my study playlist than actually studying",
+    "output": "Brain Status: Distracted 😵\nScore: 46\nIssues: setup procrastination, playlist-as-avoidance, pre-task delay\nAdvice:\n- Make one playlist and reuse it every session, decision made in advance\n- Set a 2-minute hard cap on any setup task\n- If you catch yourself optimizing setup, that is the signal to just start\nMini Challenge: Use whatever playlist is already on your phone for today. No new playlist allowed.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I haven't been able to focus since something stressful happened last month. Can't shake it.",
+    "output": "Brain Status: Distracted 😵\nScore: 64\nIssues: stress-impaired focus, unresolved emotional load, cognitive bandwidth consumed\nAdvice:\n- Stress is not a productivity problem, it is a human problem and it deserves attention\n- Journaling the stressful event can help reduce its cognitive footprint\n- Consider speaking with someone, counselor or trusted friend, before pushing harder on studying\nMini Challenge: Write 10 minutes about what happened. Not to fix it, just to release it.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I feel genuinely excited to study most days. I love learning new things.",
+    "output": "Brain Status: Focused 🧘\nScore: 6\nIssues: none significant\nAdvice:\n- Intrinsic motivation is the most powerful study fuel there is\n- Channel it by connecting everything you learn to your bigger goals\n- Protect this feeling: avoid burnout by keeping variety in what you study\nMini Challenge: Write down one thing you are genuinely curious about and plan to explore it this week.",
+    "label": "Focused"
+  },
+  {
+    "input": "I fall asleep while studying at my desk almost every day.",
+    "output": "Brain Status: Cooked 🔥\nScore: 79\nIssues: severe sleep debt, studying while exhausted, habitually insufficient rest\nAdvice:\n- Falling asleep while studying means sleep deprivation is the primary problem\n- A 20-minute nap before studying beats an hour of fighting sleep at your desk\n- Fix your sleep schedule first, nothing else will work until you do\nMini Challenge: Tonight go to bed 45 minutes earlier than usual. Nothing else changes.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I study but I am so afraid of failing that I can barely concentrate on the material.",
+    "output": "Brain Status: Distracted 😵\nScore: 53\nIssues: performance anxiety, fear-based cognitive interference, focus blocked by worry\nAdvice:\n- Fear of failing consumes the same mental resources needed for learning\n- Reframe: studying is practicing, not performing, mistakes are part of it\n- A 5-minute pre-session breathing exercise can reduce cortisol and improve focus\nMini Challenge: Before your next session, write: I am here to learn, not to be perfect.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I completed all my assignments two weeks early this semester and I am already reviewing next week's material.",
+    "output": "Brain Status: Focused 🧘\nScore: 5\nIssues: none significant\nAdvice:\n- You are operating at an elite level of academic self-management\n- Make sure you are also resting: being ahead creates room for recovery not just more work\n- Use your buffer time to go deeper not just further ahead\nMini Challenge: Schedule a full rest day this week as a deliberate reward for being ahead.",
+    "label": "Focused"
+  },
+  {
+    "input": "i literally cannot remember the last time i finished a study session feeling like i actually learned something",
+    "output": "Brain Status: Cooked 🔥\nScore: 84\nIssues: ineffective study methods, chronic low retention, disconnected from learning\nAdvice:\n- Change your method not just your effort: switch to active recall today\n- End every session by writing 3 things you now know that you did not before\n- If nothing sticks, the method is wrong, not your intelligence\nMini Challenge: Close your notes and write 3 things you know about your current topic right now.",
+    "label": "Cooked"
+  },
+  {
+    "input": "I try to study but spend half the session reorganizing my notes app instead",
+    "output": "Brain Status: Distracted 😵\nScore: 57\nIssues: organization as procrastination, setup loops, meta-work replacing actual work\nAdvice:\n- Good enough organization beats perfect organization that delays studying\n- Lock your notes app structure for one month, no reorganizing allowed\n- Ask: would a hiring manager care how my notes are organized? No. Do the work.\nMini Challenge: Close your notes app structure. Open the content. Study for 20 minutes without reorganizing.",
+    "label": "Distracted"
+  },
+  {
+    "input": "I get distracted by notifications even when I am not even expecting anything. Just checking.",
+    "output": "Brain Status: Distracted 😵\nScore: 50\nIssues: phantom notification checking, habitual device monitoring, low-level distraction loop\nAdvice:\n- Schedule two specific times to check notifications, not continuously\n- Notice whether you feel anxious when not checking, that is the habit loop\n- Try 30 minutes completely offline to reset the reflex\nMini Challenge: Do not check your phone for the next 30 minutes. Set a timer and wait.",
+    "label": "Distracted"
+  }
+]
