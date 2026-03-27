@@ -1,151 +1,110 @@
-"""
-train.py
-Fine-tunes google/flan-t5-base on the brain-rot dataset using
-HuggingFace Seq2SeqTrainer. Saves the best checkpoint to model/.
-
-Usage:
-    python train.py [--epochs 12] [--batch_size 4] [--lr 3e-4]
-"""
-
-import json
-import argparse
-import os
-import random
-
+import json, argparse, random
 import numpy as np
 import torch
 from datasets import Dataset
 from transformers import (
-    T5Tokenizer,
-    T5ForConditionalGeneration,
-    Seq2SeqTrainer,
-    Seq2SeqTrainingArguments,
-    DataCollatorForSeq2Seq,
-    EarlyStoppingCallback,
+    AutoTokenizer, AutoModelForSequenceClassification,
+    TrainingArguments, Trainer,
+    DataCollatorWithPadding,
 )
+from sklearn.metrics import accuracy_score
 
-# ── Config ────────────────────────────────────────────────────────────────────
-MODEL_NAME = "./flan-t5-small-local"
-DATA_PATH = "dataset.json"
+MODEL_NAME = "google/flan-t5-base"
+DATA_PATH  = "dataset.json"
 OUTPUT_DIR = "model/"
 INPUT_PREFIX = "Analyze the brain rot level from this self-description: "
-MAX_INPUT_LEN = 180
-MAX_TARGET_LEN = 220
+LABEL2ID = {"Focused": 0, "Distracted": 1, "Cooked": 2}
+ID2LABEL = {0: "Focused", 1: "Distracted", 2: "Cooked"}
 SEED = 42
 
+def set_seed(seed):
+    random.seed(seed); np.random.seed(seed); torch.manual_seed(seed)
+    if torch.cuda.is_available(): torch.cuda.manual_seed_all(seed)
 
-def set_seed(seed: int):
-    random.seed(seed)
-    np.random.seed(seed)
-    torch.manual_seed(seed)
-    if torch.cuda.is_available():
-        torch.cuda.manual_seed_all(seed)
-
-
-def load_data(path: str):
+def load_data(path):
     with open(path) as f:
         raw = json.load(f)
-
-    # Shuffle then split 80 / 10 / 10
     random.shuffle(raw)
     n = len(raw)
-    train_end = int(n * 0.80)
-    val_end = int(n * 0.90)
-
-    train = raw[:train_end]
-    val = raw[train_end:val_end]
-    test = raw[val_end:]
-
+    train_end, val_end = int(n*.80), int(n*.90)
+    train, val, test = raw[:train_end], raw[train_end:val_end], raw[val_end:]
     print(f"Split → train:{len(train)}  val:{len(val)}  test:{len(test)}")
-    return (
-        Dataset.from_list(train),
-        Dataset.from_list(val),
-        Dataset.from_list(test),
-    )
+    return Dataset.from_list(train), Dataset.from_list(val), Dataset.from_list(test)
 
-
-def build_tokenize_fn(tokenizer):
-    def tokenize(batch):
-        inputs = [INPUT_PREFIX + t for t in batch["input"]]
-        model_inputs = tokenizer(
-            inputs,
-            max_length=MAX_INPUT_LEN,
-            truncation=True,
-            padding=False,
-        )
-        with tokenizer.as_target_tokenizer():
-            labels = tokenizer(
-                batch["output"],
-                max_length=MAX_TARGET_LEN,
-                truncation=True,
-                padding=False,
-            )
-        model_inputs["labels"] = labels["input_ids"]
-        return model_inputs
-
-    return tokenize
-
+def compute_metrics(eval_pred):
+    logits, labels = eval_pred
+    preds = np.argmax(logits, axis=-1)
+    return {"accuracy": accuracy_score(labels, preds)}
 
 def main(args):
     set_seed(SEED)
-
-    print(f"Loading tokenizer and model: {MODEL_NAME}")
-    tokenizer = T5Tokenizer.from_pretrained(MODEL_NAME)
-    model = T5ForConditionalGeneration.from_pretrained(MODEL_NAME)
+    print(f"Loading tokenizer and model: distilbert-base-uncased")
+    tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
+    model = AutoModelForSequenceClassification.from_pretrained(
+        "distilbert-base-uncased",
+        num_labels=3,
+        id2label=ID2LABEL,
+        label2id=LABEL2ID,
+    )
 
     train_ds, val_ds, test_ds = load_data(DATA_PATH)
 
-    tokenize_fn = build_tokenize_fn(tokenizer)
-    cols_to_remove = ["input", "output", "label"]
+    def tokenize(batch):
+        inputs = [INPUT_PREFIX + t for t in batch["input"]]
+        result = tokenizer(inputs, max_length=128, truncation=True, padding=False)
+        result["labels"] = [LABEL2ID[l] for l in batch["label"]]
+        return result
 
-    train_ds = train_ds.map(tokenize_fn, batched=True, remove_columns=cols_to_remove)
-    val_ds = val_ds.map(tokenize_fn, batched=True, remove_columns=cols_to_remove)
+    cols = ["input", "output", "label"]
+    train_ds = train_ds.map(tokenize, batched=True, remove_columns=cols)
+    val_ds   = val_ds.map(tokenize,   batched=True, remove_columns=cols)
+    test_ds  = test_ds.map(tokenize,  batched=True, remove_columns=cols)
 
-    collator = DataCollatorForSeq2Seq(tokenizer, model=model, padding=True)
+    collator = DataCollatorWithPadding(tokenizer)
 
-    training_args = Seq2SeqTrainingArguments(
+    training_args = TrainingArguments(
         output_dir=OUTPUT_DIR,
         num_train_epochs=args.epochs,
         per_device_train_batch_size=args.batch_size,
         per_device_eval_batch_size=args.batch_size,
         learning_rate=args.lr,
-        warmup_steps=50,
+        warmup_ratio=0.1,
         weight_decay=0.01,
-        predict_with_generate=True,
-        evaluation_strategy="epoch",
+        eval_strategy="epoch",
         save_strategy="epoch",
         load_best_model_at_end=True,
-        metric_for_best_model="eval_loss",
-        greater_is_better=False,
-        logging_steps=10,
+        metric_for_best_model="accuracy",
+        greater_is_better=True,
+        logging_steps=5,
         fp16=torch.cuda.is_available(),
         seed=SEED,
         report_to="none",
     )
 
-    trainer = Seq2SeqTrainer(
+    trainer = Trainer(
         model=model,
         args=training_args,
         train_dataset=train_ds,
         eval_dataset=val_ds,
-        tokenizer=tokenizer,
         data_collator=collator,
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=3)],
+        compute_metrics=compute_metrics,
     )
 
     print("Starting training …")
     trainer.train()
 
-    print(f"Saving best model to {OUTPUT_DIR}")
+    # Test evaluation
+    print("\\nEvaluating on test set …")
+    results = trainer.evaluate(test_ds)
+    print(f"Test Accuracy: {results['eval_accuracy']*100:.1f}%")
+
     trainer.save_model(OUTPUT_DIR)
     tokenizer.save_pretrained(OUTPUT_DIR)
     print("Done ✅")
 
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--epochs", type=int, default=12)
-    parser.add_argument("--batch_size", type=int, default=4)
-    parser.add_argument("--lr", type=float, default=3e-4)
-    args = parser.parse_args()
-    main(args)
+    parser.add_argument("--epochs",     type=int,   default=18)
+    parser.add_argument("--batch_size", type=int,   default=16)
+    parser.add_argument("--lr",         type=float, default=2e-5)
+    main(parser.parse_args())
